@@ -91,7 +91,7 @@ const CpuAssembly = () => {
           </div>
         </OutsideClickHandler>
         <a
-          href="/"
+          href="https://saffronycollege.github.io/veyg2k24/"
           target="_blank"
           className="font-varino font-bold mx-auto text-xl translate-x-[-2.7rem] lg:mb-[1rem] text-focus-in logo-text"
           style={{ textShadow: "0 0 10px rgba(255, 255, 255, 0.8)" }}

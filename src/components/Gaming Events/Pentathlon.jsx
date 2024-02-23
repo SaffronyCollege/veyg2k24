@@ -87,7 +87,7 @@ const Pentathlon = () => {
         </div>
         </OutsideClickHandler>
         <a
-          href="/"
+          href="https://saffronycollege.github.io/veyg2k24/"
           className="font-varino font-bold mx-auto text-xl translate-x-[-2.7rem] lg:mb-[1rem] text-focus-in logo-text "
           style={{
         color:"rgb(97, 175, 241)" }}
