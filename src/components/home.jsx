@@ -166,7 +166,7 @@ function Home() {
         </a>
         
         <a
-          href="/"
+          href="https://saffronycollege.github.io/veyg2k24/"
           // target="_blank"
           className="w-[150px] m-hide h-[47px] pl-[3px] pr-[13px] mr-[3rem] justify-start items-center inline-flex  mb-[0.5rem]"
         >
