@@ -156,7 +156,7 @@ function Home() {
           </div>
         </OutsideClickHandler>
         <a
-          href="/"
+          href="https://saffronycollege.github.io/veyg2k24/"
           className="font-varino mx-auto text-xl translate-x-[-2.7rem] lg:mb-[1rem] text-focus-in logo-text "
           style={{ 
             color: "#61AFF1",
