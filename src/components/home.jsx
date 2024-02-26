@@ -13,6 +13,7 @@ import { useEffect, useState } from "react";
 // import transition from "../transition";
 import Loader from "./Loader.js";
 import Footer from "./Footer.jsx";
+import SpeakerSession from '../components/SpeakerSession';
 
 
 function Home() {
@@ -46,7 +47,7 @@ function Home() {
     
      const delay = setTimeout(() => {
       setIsLoading(false);
-    }, 3000);
+    }, 2000);
 
     return () => clearTimeout(delay);
   
@@ -217,7 +218,35 @@ function Home() {
           </p>
         </div>
       </div>
+      <br></br>
+      <br></br>
+      <br></br>
+      <h1
+  className="text-4xl font-bold mt-8 special-session"
+  style={{
+    textAlign: 'center',
+    animation: 'fadeInDown 1.5s ease',
+    fontFamily: 'Orbitron, sans-serif',
+    letterSpacing: '3px',
+    fontSize: '43px',
+    padding: '20px',
+    textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
+    background: '-webkit-linear-gradient(left, #009aff, #68efff)', /* Create a linear gradient font color */
+    WebkitBackgroundClip: 'text', /* Apply the gradient as a font color */
+    WebkitTextFillColor: 'transparent', /* Make the text transparent so the gradient shows through */
+  }}
+>
+  Special Session
+</h1>
 
+        <div className="wrapper overflow-hidden font-varino">
+      {/* Your existing code... */}
+
+      <SpeakerSession />
+
+      {/* Your existing code... */}
+    </div>
+    
       <img
         src={sphere1}
         alt="bottomleft"
