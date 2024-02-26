@@ -730,7 +730,7 @@ a:hover h1 {
     }
     .m-logo {
         margin-bottom: 2rem;
-        width: 317px;
+        margin-top: -6rem;
         height: 215px;
     }
     .m-gamelogotext {
