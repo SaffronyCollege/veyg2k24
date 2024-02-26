@@ -43,7 +43,7 @@ function Home() {
 
   useEffect(() => {
     
-    document.title = "VEYG 2024";
+    document.title = "VEYG 2K24";
     
      const delay = setTimeout(() => {
       setIsLoading(false);

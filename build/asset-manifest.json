@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/veyg2k24/static/css/main.d1fa10a7.css",
-    "main.js": "/veyg2k24/static/js/main.b9d378fa.js",
+    "main.css": "/veyg2k24/static/css/main.9d67fa50.css",
+    "main.js": "/veyg2k24/static/js/main.e636918c.js",
     "static/js/787.6cb3b903.chunk.js": "/veyg2k24/static/js/787.6cb3b903.chunk.js",
     "static/media/gt7.png": "/veyg2k24/static/media/gt7.e96daf6146f8a68871c0.png",
     "static/media/gullycricket.png": "/veyg2k24/static/media/gullycricket.7d209cefce64796545ea.png",
@@ -13,7 +13,6 @@
     "static/media/ReadexPro-VariableFont_HEXP,wght.ttf": "/veyg2k24/static/media/ReadexPro-VariableFont_HEXP,wght.c2bf707ae53c58d8e43d.ttf",
     "static/media/dap1.png": "/veyg2k24/static/media/dap1.901107911f8afcbffb57.png",
     "static/media/bgmi.jpg": "/veyg2k24/static/media/bgmi.0847544cd028fb5d4bf0.jpg",
-    "static/media/ZiegersLogo.png": "/veyg2k24/static/media/ZiegersLogo.01610a73e922962225f7.png",
     "static/media/ZiegersLogo2.png": "/veyg2k24/static/media/ZiegersLogo2.01610a73e922962225f7.png",
     "static/media/planet.png": "/veyg2k24/static/media/planet.2e3ffc056623a089a026.png",
     "static/media/planet2.png": "/veyg2k24/static/media/planet2.ef18214ffd0bf52fdbff.png",
@@ -24,18 +23,19 @@
     "static/media/VarinonormalRegular-nRYg4.otf": "/veyg2k24/static/media/VarinonormalRegular-nRYg4.73b4bdc9a68482b72da7.otf",
     "static/media/m-gt7banner.jpg": "/veyg2k24/static/media/m-gt7banner.85432738581ad0233112.jpg",
     "static/media/m-gamingbanner.webp": "/veyg2k24/static/media/m-gamingbanner.063fd22a73b9501dd302.webp",
+    "static/media/ZiegersLogo.png": "/veyg2k24/static/media/ZiegersLogo.c6af520225be67c1377c.png",
     "static/media/gamingPageBanner.webp": "/veyg2k24/static/media/gamingPageBanner.14cd1dc8604510c01ed0.webp",
     "static/media/stars.webp": "/veyg2k24/static/media/stars.6d073c97f2d8073c4216.webp",
     "static/media/logo-saff.png": "/veyg2k24/static/media/logo-saff.41f2bbc4d217f8884fa1.png",
     "index.html": "/veyg2k24/index.html",
     "static/media/contactbanner.svg": "/veyg2k24/static/media/contactbanner.d8c864c0edc1ebbf30aaa30bf62bde9b.svg",
     "static/media/menu.svg": "/veyg2k24/static/media/menu.f42aaa1b5e76b80ca12af6ae95ea29dc.svg",
-    "main.d1fa10a7.css.map": "/veyg2k24/static/css/main.d1fa10a7.css.map",
-    "main.b9d378fa.js.map": "/veyg2k24/static/js/main.b9d378fa.js.map",
+    "main.9d67fa50.css.map": "/veyg2k24/static/css/main.9d67fa50.css.map",
+    "main.e636918c.js.map": "/veyg2k24/static/js/main.e636918c.js.map",
     "787.6cb3b903.chunk.js.map": "/veyg2k24/static/js/787.6cb3b903.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d1fa10a7.css",
-    "static/js/main.b9d378fa.js"
+    "static/css/main.9d67fa50.css",
+    "static/js/main.e636918c.js"
   ]
 }

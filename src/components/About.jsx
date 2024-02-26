@@ -12,7 +12,7 @@ const About = () => {
         <img src={banner} alt='contactbanner' className='w-screen translate-y-4 m-contact-banner' />
         <div className=''>
           <div className='flex flex-col justify-center absolute top-[15rem] items-center gap-7 w-screen'>
-            <div className='text-white z-1 border border-solid border-[#E5E7EB] font-readex text-[30px] text-center font-bold rounded-full py-1 px-6 m-welcome-zieger'>Welcome to Veyg 2024</div>
+            <div className='text-white z-1 border border-solid border-[#E5E7EB] font-readex text-[30px] text-center font-bold rounded-full py-1 px-6 m-welcome-zieger'>Welcome to Veyg 2K24</div>
             <div className='text-gray-400 text-xl font-readex text-center max-w-2xl mx-auto mt-10'>
     <p className='mb-[0.5rem]'>Welcome to VEYG, Saffrony Institute’s Technical Festival! Explore a platform where budding Saffronites unfold their engineering potential, refine soft skills, and gain recognition for their discipline and outstanding performance. 💡</p>
 </div>
