@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/veyg2k24/static/css/main.9d67fa50.css",
-    "main.js": "/veyg2k24/static/js/main.bc2656c7.js",
+    "main.js": "/veyg2k24/static/js/main.ccab8f3d.js",
     "static/js/787.6cb3b903.chunk.js": "/veyg2k24/static/js/787.6cb3b903.chunk.js",
     "static/media/gt7.png": "/veyg2k24/static/media/gt7.e96daf6146f8a68871c0.png",
     "static/media/gullycricket.png": "/veyg2k24/static/media/gullycricket.7d209cefce64796545ea.png",
@@ -31,11 +31,11 @@
     "static/media/contactbanner.svg": "/veyg2k24/static/media/contactbanner.d8c864c0edc1ebbf30aaa30bf62bde9b.svg",
     "static/media/menu.svg": "/veyg2k24/static/media/menu.f42aaa1b5e76b80ca12af6ae95ea29dc.svg",
     "main.9d67fa50.css.map": "/veyg2k24/static/css/main.9d67fa50.css.map",
-    "main.bc2656c7.js.map": "/veyg2k24/static/js/main.bc2656c7.js.map",
+    "main.ccab8f3d.js.map": "/veyg2k24/static/js/main.ccab8f3d.js.map",
     "787.6cb3b903.chunk.js.map": "/veyg2k24/static/js/787.6cb3b903.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9d67fa50.css",
-    "static/js/main.bc2656c7.js"
+    "static/js/main.ccab8f3d.js"
   ]
 }
