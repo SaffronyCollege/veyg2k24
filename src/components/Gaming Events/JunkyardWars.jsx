@@ -342,7 +342,7 @@ const JunkyardWars = () => {
       <div className="flex flex-col justify-center gap-[40px] items-center max-w-[950px] mx-auto lg:mt-[10rem] mb-20">
         <div className="text-[21px] font-inter text-center text-[#D4D4D4] tracking-[1.15px] font-medium z-10 m-bgmi-desc w-[90%] mx-auto">
         This event is specially designed for Civil & Mechanical Students. Here we shall first create a mound of useful junk like
-pipes, wires, rods,boxes, thermocol balls, cellotape, and much more and will also provide glue & binding material.
+pipes, wires, rods,boxes, and much more and will also provide glue & binding material.
 The teams will then be asked to stand far away from the mound at different places and they have to run to the mound
 once the command is given. They will have 1 minute to pick up whatever they want from the mound.
 
@@ -400,8 +400,9 @@ once the command is given. They will have 1 minute to pick up whatever they want
               className="flex flex-col gap-3 items-center text-center"
               style={{ listStyleType: "disc" }}
             >
-           Once they have picked up whatever they deem fit, in round 1, they will be asked to make a tower as high
-and stable as possible. The team with the highest tower gets the most points. Every team will be given points.
+          In this round, each will be given a small sized balloon filled with water which represents a group of humans
+that shall be coming to earth from space. Now they need to design a space shuttle for this balloon such that when it is
+dropped from the 2nd floor, the balloon shall not break, aka the humans shall not die.
             </ul>
           </div>
         </div>
@@ -418,9 +419,7 @@ and stable as possible. The team with the highest tower gets the most points. Ev
               className="flex flex-col gap-3 items-center text-center"
               style={{ listStyleType: "disc" }}
             >
-          In this round, each will be given a small sized balloon filled with water which represents a group of humans
-that shall be coming to earth from space. Now they need to design a space shuttle for this balloon such that when it is
-dropped from the 2nd floor, the balloon shall not break, aka the humans shall not die.
+          Buoyancy
             </ul>
           </div>
         </div>
