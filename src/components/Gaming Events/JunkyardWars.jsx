@@ -341,10 +341,7 @@ const JunkyardWars = () => {
       </div>
       <div className="flex flex-col justify-center gap-[40px] items-center max-w-[950px] mx-auto lg:mt-[10rem] mb-20">
         <div className="text-[21px] font-inter text-center text-[#D4D4D4] tracking-[1.15px] font-medium z-10 m-bgmi-desc w-[90%] mx-auto">
-        This event is specially designed for Civil & Mechanical Students. Here we shall first create a mound of useful junk like
-pipes, wires, rods,boxes, and much more and will also provide glue & binding material.
-The teams will then be asked to stand far away from the mound at different places and they have to run to the mound
-once the command is given. They will have 1 minute to pick up whatever they want from the mound.
+        This event is specially designed for Civil & Mechanical Engineering Students. Here the participants will be given an opportunity to beg, borrow & steal materials from a mound of "useful junk", which they shall put to use in the rounds ahead
 
         </div>
       </div>
@@ -400,9 +397,7 @@ once the command is given. They will have 1 minute to pick up whatever they want
               className="flex flex-col gap-3 items-center text-center"
               style={{ listStyleType: "disc" }}
             >
-          In this round, each will be given a small sized balloon filled with water which represents a group of humans
-that shall be coming to earth from space. Now they need to design a space shuttle for this balloon such that when it is
-dropped from the 2nd floor, the balloon shall not break, aka the humans shall not die.
+          In this round, each team will be given a small sized balloon filled with water which represents a group of humans that shall be coming to the Earth from Space. Now, they need to design a space shuttle for this balloon such that when it is dropped from the 2nd floor, the balloon shall not break, aka the humans shall not die.
             </ul>
           </div>
         </div>
@@ -419,7 +414,7 @@ dropped from the 2nd floor, the balloon shall not break, aka the humans shall no
               className="flex flex-col gap-3 items-center text-center"
               style={{ listStyleType: "disc" }}
             >
-          Buoyancy
+          This is a secret round and the ony thing we can tell you is one keyword: Buoyancy!
             </ul>
           </div>
         </div>
@@ -438,8 +433,8 @@ dropped from the 2nd floor, the balloon shall not break, aka the humans shall no
               className="flex flex-col gap-3 items-center text-center"
               style={{ listStyleType: "disc" }}
             >
-   For Round 1 & 2 both, they may also trade materials with other teams if everyone is willing to do so.
-Final winner will be declared based on the summation of the marks from both the rounds.
+   There will be no elimination. ALl participating teams shall be allowed to play BOTH, Rounds 1 & 2. Final winners will be declared based on the summation of the marks from both the rounds.The criteria for winning in both the rounds will be declared in advance before the rounds start giving teams ample amount of time to strategise!
+So warriors, are you ready for some scientific fun?
             </ul>
           </div>
         </div>
