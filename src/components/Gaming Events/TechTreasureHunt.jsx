@@ -443,7 +443,7 @@ and write it down on their answer sheet. If their answer is correct, they earn 1
   <li>Teams use converter app or provided chart.</li>
   <li>First team to translate all segments and reach the revealed location wins.</li>
   <li>Other teams continue until time is up.</li>
-  <li>Example: Team B finds a code, translates to "LIBRARY," rushes to the library for the next challenge.</li>
+  <li>Example: Team B finds a code, translates to "PARKING," rushes to the parking for the next challenge.</li>
             </ul>
           </div>
         </div>
