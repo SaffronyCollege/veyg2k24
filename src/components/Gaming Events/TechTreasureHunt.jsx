@@ -518,7 +518,7 @@ and write it down on their answer sheet. If their answer is correct, they earn 1
               style={{ listStyleType: "disc" }}
             >
             
-  <li>Team Composition: 4 members per team.</li>
+  <li>Team Composition: 3 members per team.</li>
   <li>All members must be present at start.</li>
   <li>Equipment: Allowed pens, pencils; electronic devices as permitted.</li>
   <li> Exhibit sportsmanship, cheating results in disqualification.</li>
