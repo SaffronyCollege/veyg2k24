@@ -331,7 +331,7 @@ const JunkyardWars = () => {
                     />
                   </svg>
                   <div className=" font-readex text-[#F3F3F3]">
-                  Workshop/Parking-area
+                  Degree Verandah & Secret
                   </div>
                 </div>
               </div>
