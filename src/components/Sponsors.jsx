@@ -1,24 +1,5 @@
-// import react from reacimport React from 'react';
+import React from 'react';
 
-// const SponsorsComponent = ({ sponsors }) => (
-//     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: '30px' }}>
-//         <div style={{ textAlign: 'center' }}>
-//             <p style={{ color: '#faed00', fontSize: '24px' }}>Our Sponsors</p>
-//         </div>
-//         <div style={{ display: 'flex', justifyContent: 'center', gap: '20px', marginTop: '20px', flexWrap: 'wrap' }}>
-//             {sponsors.map((object, index) => (
-//                 <div key={index} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '10px', border: '1px solid #ccc', borderRadius: '5px', backgroundColor: '#f8f8f8', minWidth: '100px', maxWidth: '150px' }}>
-//                     <img src={object.logo} style={{ width: '80px', height: '80px', borderRadius: '50%', objectFit: 'cover' }} alt={`${object.name} logo`} />
-//                     <p style={{ marginTop: '10px', fontWeight: 'bold', color: '#333', textAlign: 'center' }}>{object.name}</p>
-//                 </div>
-//             ))}
-//         </div>
-//     </div>
-// );
-
-// export default SponsorsComponent;t;
-
-import React, { useRef } from 'react';
 const sponsors = [
     {
         name: "Brainy Beam",
@@ -36,25 +17,6 @@ const sponsors = [
         link: "https://www.integersystem.com/",
     },
 ]
-
-
-// const SponsorsComponent = () => (
-//     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: '30px' }}>
-//         <div style={{ textAlign: 'center' }}>
-//             <p style={{ color: '#faed00', fontSize: '24px' }}>Our Sponsors</p>
-//         </div>
-//         <div style={{ display: 'flex', justifyContent: 'center', gap: '20px', marginTop: '20px', flexWrap: 'wrap' }}>
-//             {sponsors.map((object, index) => (
-//                 <div key={index} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '10px', border: '1px solid #ccc', borderRadius: '5px', backgroundColor: '#f8f8f8', minWidth: '100px', maxWidth: '150px' }}>
-//                     <img src={object.logo} style={{ width: '80px', height: '80px', borderRadius: '50%', objectFit: 'cover' }} alt={`${object.name} logo`} />
-//                     <p style={{ marginTop: '10px', fontWeight: 'bold', color: '#333', textAlign: 'center' }}>{object.name}</p>
-//                 </div>
-//             ))}
-//         </div>
-//     </div>
-// );
-
-// export default SponsorsComponent;
 
 const width = window.innerWidth;
 const height = window.innerHeight;
@@ -74,7 +36,8 @@ const cardStyles = () => {
 }
 
 const SponsorsComponent = () => (
-    <div className="flex flex-col items-center gap-10 mb-20 z-10">
+    <div className="flex flex-col items-center gap-10 mb-20 z-10 mt-3"> {/* Reduced margin-top for mobile view */}
+ {/* Added margin-top to the container */}
         <div className="text-center">
             <p className="text-yellow-500  font-bold" style={{ fontSize: 46 }} >Our Sponsors</p>
         </div>
@@ -82,8 +45,8 @@ const SponsorsComponent = () => (
             {sponsors.map((object, index) => (
                 <div key={index} className="flex flex-col items-center rounded-lg">
                     <a href={object.link} target='_blank'>
-                        <img src={object.logo} className="rounded-3xl object-cover" style={cardStyles()} alt={`${object.name} logo`} />
-                    </a>
+                    <img src={object.logo} className="rounded-3xl object-cover mt-20" style={{ ...cardStyles(), borderTopLeftRadius: '15px', borderTopRightRadius: '15px' }} alt={`${object.name} logo`} /> {/* Increased margin-top and added curved upper corners to the image */}
+                        </a>
                     <a href={object.link} target='_blank'>
                         <p className="mt-2 font-semibold" style={{ fontSize: 32, color: '#00c2ff' }} >{object.name}</p>
                     </a>
@@ -94,6 +57,3 @@ const SponsorsComponent = () => (
 );
 
 export default SponsorsComponent;
-
-
-// export default Sponsors;

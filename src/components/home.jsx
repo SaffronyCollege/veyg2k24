@@ -12,14 +12,9 @@ import { useEffect, useState } from "react";
 // import transition from "../transition";
 import Loader from "./Loader.js";
 import Footer from "./Footer.jsx";
-<<<<<<< HEAD
-
 import ss from "../../src/assets/ss1.png";
-=======
-import SpeakerSession from '../components/SpeakerSession';
 // import Sponsors from "./Sponsors.jsx";
 import SponsorsComponent from "./Sponsors.jsx";
->>>>>>> 51ff3c5f8cf2e2b9079298f2a669c42c01667cbb
 
 
 function Home() {
@@ -204,29 +199,29 @@ function Home() {
     alt="Veyg"
     className="h-[395px] w-[424px] mx-auto mt-10"
   ></img>
-  <div className="wrapper overflow-hidden font-varino">
+ <div className="wrapper overflow-hidden font-varino" style={{ marginTop: '-20px' }}> {/* Added negative margin-top to compensate for the special session image */}
     <h1
-      className="text-4xl font-bold mt-8 special-session"
+      className="text-4xl font-bold special-session"
       style={{
         textAlign: 'center',
         animation: 'fadeInDown 1.5s ease',
         fontFamily: 'Orbitron, sans-serif',
         letterSpacing: '3px',
         fontSize: '43px',
-        padding: '20px',
+        padding: '10px',
         textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
-        background: '-webkit-linear-gradient(left, #009aff, #68efff)', /* Create a linear gradient font color */
-        WebkitBackgroundClip: 'text', /* Apply the gradient as a font color */
-        WebkitTextFillColor: 'transparent', /* Make the text transparent so the gradient shows through */
-        position: 'relative', // Add position relative
-        zIndex: 10, // Adjust the z-index to make sure it's above other elements
+        background: '-webkit-linear-gradient(left, #009aff, #68efff)', 
+        WebkitBackgroundClip: 'text', 
+        WebkitTextFillColor: 'transparent', 
+        position: 'relative', 
+        zIndex: 10, 
       }}
     >
       Special Session
     </h1>
-    <img src={ss} alt="ss" className="w-auto h-auto mx-auto mb-8"></img>
+    <img src={ss} alt="ss" className="w-auto h-auto mx-auto "></img> {/* Decreased margin-bottom for smaller screens */}
+</div>
 
-  </div>
 </div>
 
       
@@ -270,9 +265,7 @@ function Home() {
 
 
 <br></br>
-<br></br>
-<br></br> 
-=======
+ 
 <SponsorsComponent/>
 <Footer/>
 
