@@ -14,6 +14,8 @@ import { useEffect, useState } from "react";
 import Loader from "./Loader.js";
 import Footer from "./Footer.jsx";
 import SpeakerSession from '../components/SpeakerSession';
+// import Sponsors from "./Sponsors.jsx";
+import SponsorsComponent from "./Sponsors.jsx";
 
 
 function Home() {
@@ -277,7 +279,7 @@ function Home() {
         alt="topright"
         className="topright blur-[1.3px] top-28 right-24 absolute h-[108px] w-[10VEYG0px "
       ></img>
-
+<SponsorsComponent/>
 <Footer/>
 
 </>
