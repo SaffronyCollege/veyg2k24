@@ -2,14 +2,14 @@ import React from 'react';
 
 const sponsors = [
     {
-        name: "Brainy Beam",
-        logo: require("./../assets/Brainy.png"),
-        link: "https://www.brainybeam.com/",
-    },
-    {
         name: "Prime UAV",
         logo: require("./../assets/Prime.jpeg"),
         link: "https://primeuav.com/",
+    },
+    {
+        name: "Brainy Beam",
+        logo: require("./../assets/Brainy.png"),
+        link: "https://www.brainybeam.com/",
     },
     {
         name: "Integer System",
@@ -36,7 +36,7 @@ const cardStyles = () => {
 }
 
 const SponsorsComponent = () => (
-    <div className="flex flex-col items-center gap-10 mb-20 z-10 mt-3"> {/* Reduced margin-top for mobile view */}
+    <div className="flex flex-col items-center gap-10 mb-20 z-10 "> {/* Reduced margin-top for mobile view */}
  {/* Added margin-top to the container */}
         <div className="text-center">
             <p className="text-yellow-500  font-bold" style={{ fontSize: 46 }} >Our Sponsors</p>
@@ -45,7 +45,7 @@ const SponsorsComponent = () => (
             {sponsors.map((object, index) => (
                 <div key={index} className="flex flex-col items-center rounded-lg">
                     <a href={object.link} target='_blank'>
-                    <img src={object.logo} className="rounded-3xl object-cover mt-20" style={{ ...cardStyles(), borderTopLeftRadius: '15px', borderTopRightRadius: '15px' }} alt={`${object.name} logo`} /> {/* Increased margin-top and added curved upper corners to the image */}
+                    <img src={object.logo} className="rounded-3xl object-cover " style={{ ...cardStyles(), borderTopLeftRadius: '15px', borderTopRightRadius: '15px' }} alt={`${object.name} logo`} /> {/* Increased margin-top and added curved upper corners to the image */}
                         </a>
                     <a href={object.link} target='_blank'>
                         <p className="mt-2 font-semibold" style={{ fontSize: 32, color: '#00c2ff' }} >{object.name}</p>

@@ -4,7 +4,7 @@ import React from 'react'
     return (
       <footer className="absolute bottom-1 left-0 right-0">
         <div className="flex flex-row justify-between mx-auto items-center flex-wrap m-footer">
-          <div className="text-center pt-2 text-[#6B7280] font-readex text-[12px] ml-16 m-copyright-text select-none">&copy; 2024 Veyg.com. All rights reserved.</div>
+          <div className="text-center pt-2 text-[#6B7280] font-readex text-[12px] ml-16 m-copyright-text select-none">&copy; 2024 VEYG TEAM. All rights reserved.</div>
           <div className="flex justify-center gap-4 mr-16 m-footer-social">
             <div className='m-copyright-socials'>
               <a href='https://www.instagram.com/saffronyinstitute/' target='_blank' rel='noreferrer'>
