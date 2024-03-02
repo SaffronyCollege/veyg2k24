@@ -12,8 +12,14 @@ import { useEffect, useState } from "react";
 // import transition from "../transition";
 import Loader from "./Loader.js";
 import Footer from "./Footer.jsx";
+<<<<<<< HEAD
 
 import ss from "../../src/assets/ss1.png";
+=======
+import SpeakerSession from '../components/SpeakerSession';
+// import Sponsors from "./Sponsors.jsx";
+import SponsorsComponent from "./Sponsors.jsx";
+>>>>>>> 51ff3c5f8cf2e2b9079298f2a669c42c01667cbb
 
 
 function Home() {
@@ -262,9 +268,12 @@ function Home() {
         className="topright blur-[1.3px] top-28 right-24 absolute h-[108px] w-[10VEYG0px "
       ></img>
 
+
 <br></br>
 <br></br>
 <br></br> 
+=======
+<SponsorsComponent/>
 <Footer/>
 
 </>
