@@ -67,12 +67,7 @@ function Home() {
                 <div onClick={handleRegisterClick} className="cursor-pointer font-varino ml-3 text-focus-in navbar-text">
                   Events
                 </div>
-                {/* <div
-                  onClick={handleContactClick}
-                  className="flex justify-center items-center align-middle font-varino text-focus-in navbar-text cursor-pointer"
-                >
-                  Contact
-                </div> */}
+             
 
                 <svg
                   width="34"
@@ -180,11 +175,11 @@ function Home() {
           <img
             src={logo}
             alt="Veyg"
-            className="h-[395px] w-[424px] mx-auto mt-10"
+            className="h-[297px] w-[424px] mx-auto mt-10"
           ></img>
           <div className="wrapper overflow-hidden font-varino" style={{ marginTop: '-20px' }}> {/* Added negative margin-top to compensate for the special session image */}
             <h1
-              className="text-4xl font-bold special-session"
+              className="text-4xl font-bold special-session mb-5"
               style={{
                 textAlign: 'center',
                 animation: 'fadeInDown 1.5s ease',
@@ -193,7 +188,7 @@ function Home() {
                 fontSize: '43px',
                 padding: '10px',
                 textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
-                background: '-webkit-linear-gradient(left, #009aff, #68efff)', 
+                background: '-webkit-linear-gradient(left, #00c2ff, #00c2ff)', 
                 WebkitBackgroundClip: 'text', 
                 WebkitTextFillColor: 'transparent', 
                 position: 'relative', 
@@ -202,7 +197,7 @@ function Home() {
             >
               Special Session
             </h1>
-            <img src={ss} alt="ss" className="w-auto h-auto mx-auto "></img> {/* Removed margin-bottom */}
+            <img src={ss} alt="ss" className="w-auto h-auto mx-auto "></img> 
 </div>
 
          
@@ -236,11 +231,11 @@ function Home() {
             alt="topright"
             className="topright blur-[1.3px] top-28 right-24 absolute h-[108px] w-[100px] "
           ></img>
-
+  
 <SponsorsComponent style={{ marginTop: '-50px' }} />
-          <p className="text-black ziegers font-semibold text-[50px] leading-[65px] font-varino max-w-[850px] text-center lg:mt-[10px] ziegers2024" style={{ marginLeft: 'auto', marginRight: 'auto' }}>
-  VEYG 2024
-</p>
+{/* <p className="text-black ziegers font-semibold text-[50px] leading-[65px] font-varino max-w-[850px] text-center lg:mt-[10px] ziegers2024" style={{ marginLeft: 'auto', marginRight: 'auto' }}>
+  VEYG 2024 SPONSORS
+</p> */}
 <br></br>
 <br></br>
 <br></br>
