@@ -1,7 +1,6 @@
 
 import logo from "../../src/assets/ZiegersLogo.png";
 import safflogo from "../../src/assets/logo-saff.png";
-import stars from "../../src/assets/stars.webp";
 // import stroke from "../../src/assets/strokes.webp";
 import sphere1 from "../../src/assets/planet.png";
 import sphere2 from "../../src/assets/planet2.png";
@@ -13,7 +12,8 @@ import { useEffect, useState } from "react";
 // import transition from "../transition";
 import Loader from "./Loader.js";
 import Footer from "./Footer.jsx";
-import SpeakerSession from '../components/SpeakerSession';
+
+import ss from "../../src/assets/ss1.png";
 
 
 function Home() {
@@ -192,61 +192,45 @@ function Home() {
           ></img>
         </div>
       </nav>
-      <div className="bgstyle"></div>
+      <div className="bgstyle">
+  <img
+    src={logo}
+    alt="Veyg"
+    className="h-[395px] w-[424px] mx-auto mt-10"
+  ></img>
+  <div className="wrapper overflow-hidden font-varino">
+    <h1
+      className="text-4xl font-bold mt-8 special-session"
+      style={{
+        textAlign: 'center',
+        animation: 'fadeInDown 1.5s ease',
+        fontFamily: 'Orbitron, sans-serif',
+        letterSpacing: '3px',
+        fontSize: '43px',
+        padding: '20px',
+        textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
+        background: '-webkit-linear-gradient(left, #009aff, #68efff)', /* Create a linear gradient font color */
+        WebkitBackgroundClip: 'text', /* Apply the gradient as a font color */
+        WebkitTextFillColor: 'transparent', /* Make the text transparent so the gradient shows through */
+        position: 'relative', // Add position relative
+        zIndex: 10, // Adjust the z-index to make sure it's above other elements
+      }}
+    >
+      Special Session
+    </h1>
+    <img src={ss} alt="ss" className="w-auto h-auto mx-auto mb-8"></img>
 
-      <img
-        src={stars}
-        alt="stars"
-        className="absolute h-[40rem] w-[90rem] top-[8rem] left-[7rem] stars"
-      ></img>
+  </div>
+</div>
 
-      <div className="flex justify-center">
-        {/* <img
-          src={stroke}
-          alt="Strokes"
-          className="w-[45%] h-[75%] absolute top-0 mt-20 strokes"
-        ></img> */}
-        <div className="flex flex-col lg:gap-3 absolute items-center top-[17%] h-[500px] w-[650px] mx-auto overflow-hidden hero-section">
-          <img
-            src={logo}
-            alt="Veyg"
-            className="h-[335px] w-[500px] translate-y-5 m-logo"
-          ></img>
-          
-          <p className="text-black ziegers font-semibold text-[50px] leading-[65px] font-varino max-w-[850px] text-center lg:mt-[10px] ziegers2024">
+      
+    <p className="text-black ziegers font-semibold text-[50px] leading-[65px] font-varino max-w-[850px] text-center lg:mt-[10px] ziegers2024">
             VEYG 2024
           </p>
-        </div>
-      </div>
-      <br></br>
-      <br></br>
-      <br></br>
-      <h1
-  className="text-4xl font-bold mt-8 special-session"
-  style={{
-    textAlign: 'center',
-    animation: 'fadeInDown 1.5s ease',
-    fontFamily: 'Orbitron, sans-serif',
-    letterSpacing: '3px',
-    fontSize: '43px',
-    padding: '20px',
-    textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
-    background: '-webkit-linear-gradient(left, #009aff, #68efff)', /* Create a linear gradient font color */
-    WebkitBackgroundClip: 'text', /* Apply the gradient as a font color */
-    WebkitTextFillColor: 'transparent', /* Make the text transparent so the gradient shows through */
-  }}
->
-  Special Session
-</h1>
-
-        <div className="wrapper overflow-hidden font-varino">
-      {/* Your existing code... */}
-
-      <SpeakerSession />
-
-      {/* Your existing code... */}
-    </div>
-    
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
       <img
         src={sphere1}
         alt="bottomleft"
@@ -278,6 +262,9 @@ function Home() {
         className="topright blur-[1.3px] top-28 right-24 absolute h-[108px] w-[10VEYG0px "
       ></img>
 
+<br></br>
+<br></br>
+<br></br> 
 <Footer/>
 
 </>
