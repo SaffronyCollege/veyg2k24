@@ -38,17 +38,23 @@ const cardStyles = () => {
 const SponsorsComponent = () => (
     <div className="flex flex-col items-center gap-10 mb-20 z-10 "> {/* Reduced margin-top for mobile view */}
  {/* Added margin-top to the container */}
-        <div className="text-center">
+        {/* <div className="text-center">
             <p className="text-yellow-500  font-bold" style={{ fontSize: 46 }} >Our Sponsors</p>
-        </div>
-        <div className="flex justify-evenly flex-wrap gap-y-12 gap-x-14" style={{ display: "flex", justifyContent: "space-evenly", alignContent: "space-around", }}>
+        </div> */}
+        <div className="text-center mt-10">
+        <p className="text-black ziegers font-semibold text-[50px] leading-[65px] font-varino max-w-[850px] text-center lg:mt-[10px] ziegers2024" style={{ marginLeft: 'auto', marginRight: 'auto' }}>
+  VEYG 2024 
+  <br></br>PLATINUM SPONSORS
+</p> 
+</div>
+        <div className="flex justify-evenly flex-wrap gap-y-12 gap-x-14 font-semibold font-sans" style={{ display: "flex", justifyContent: "space-evenly", alignContent: "space-around", }}>
             {sponsors.map((object, index) => (
                 <div key={index} className="flex flex-col items-center rounded-lg">
                     <a href={object.link} target='_blank'>
                     <img src={object.logo} className="rounded-3xl object-cover " style={{ ...cardStyles(), borderTopLeftRadius: '15px', borderTopRightRadius: '15px' }} alt={`${object.name} logo`} /> {/* Increased margin-top and added curved upper corners to the image */}
                         </a>
                     <a href={object.link} target='_blank'>
-                        <p className="mt-2 font-semibold" style={{ fontSize: 32, color: '#00c2ff' }} >{object.name}</p>
+                        <p className="mt-2" style={{ fontSize: 32, color: '#00c2ff' }} >{object.name}</p>
                     </a>
                 </div>
             ))}

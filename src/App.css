@@ -25,7 +25,7 @@
 .wrapper {
     position: relative;
     background-color: #0a0a0b;
-    min-height: 100vh;
+    min-height: 80vh;
     overflow-x: hidden;
 }
 
@@ -53,7 +53,7 @@
 }
 
 .ziegers2024 {
-    background: linear-gradient(98deg, #EB1C24 0%, #FECB3A 52.4%, #42A754 100%);
+    background: linear-gradient(98deg, #bac7d1 0%, #E5E4E2 52.4%, #939393  100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -62,31 +62,31 @@
 
 @keyframes color-me-in {
     0% {
-        background: linear-gradient(98deg, #EB1C24 0%, #FECB3A 52.4%, #42A754 80%);
+        background: linear-gradient(98deg, #E5E4E2 0%, #E5E4E2 52.4%, #939393  80%);
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
     25% {
-        background: linear-gradient(98deg, #42A754 0%, #EB1C24 52.4%, #00c2ff 80%);
+        background: linear-gradient(98deg, #E5E4E2 0%, #bac7d1 52.4%, #E5E4E2 80%);
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
     50% {
-        background: linear-gradient(98deg, #FECB3A 0%, #42A754 52.4%, #EB1C24 80%);
+        background: linear-gradient(98deg, #E5E4E2 0%, #E5E4E2  52.4%, #bac7d1 80%);
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
     75% {
-        background: linear-gradient(98deg, #EB1C24 0%, #FECB3A 52.4%, #42A754 80%);
+        background: linear-gradient(98deg, #E5E4E2 0%, #E5E4E2 52.4%, #939393  80%);
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
     100% {
-        background: linear-gradient(98deg, #42A754 0%, #EB1C24 52.4%, #FECB3A 80%);
+        background: linear-gradient(98deg, #E5E4E2  0%, #E5E4E2 52.4%, #E5E4E2 80%);
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -673,10 +673,10 @@ a:hover h1 {
         z-index: 50rem;
     }
     .topleft {
-        height: 40px;
+        height: 350px;
         width: 40px;
         left: -11px;
-        top: 32rem;
+        top: 57rem;
         transform: rotate(90deg);
     }
     .middleleft {
@@ -687,25 +687,25 @@ a:hover h1 {
         transform: rotate(90deg);
     }
     .bottomleft {
-        height: 523px;
-        width: 75px;
+        height: 328px;
+        width: 44px;
         bottom: -6.4rem;
-        left: -45px;
+        left: -72px;
         transform: rotate(88deg);
     }
     .topright {
-        height: 350px;
-        width: 53px;
-        top: 24rem;
-        right: 10px;
+        height: 257px;
+        width: 25px;
+        top: -6rem;
+        right: 7px;
         transform: rotate(270deg);
     }
     .bottomright {
-        height: 40px;
-        width: 40px;
+        height: 346px;
+        width: 42px;
         right: -14px;
-        bottom: 35rem;
-        transform: rotate(259deg);
+        bottom: 73rem;
+        transform: rotate(270deg);
     }
     .middleright {
         height: 206px;
@@ -1322,8 +1322,8 @@ a:hover h1 {
         display: flex;
         margin-right: 0px;
     }
-    /* About */
     .m-aboutus {
+        margin-top: 10rem;
         font-size: 40px;
     }
     .m-welcome-zieger {

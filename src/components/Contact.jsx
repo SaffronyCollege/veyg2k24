@@ -1,16 +1,30 @@
-
-import React, { useEffect } from 'react'
+import React from 'react'
+import Navbar from "./navbar.jsx";
+import { useEffect, useState } from "react";
 import banner from '../../src/assets/contactbanner.svg';
 import logo from '../../src/assets/ZiegersLogo2.png';
 import transition from '../transition';
 import Footer from './Footer';
+import { useNavigate } from 'react-router-dom';
 const Contact = () => {
+  const [showNavbar, setShowNavbar] = useState(false);
+  const navigate =useNavigate()
+
   useEffect(() => {
     document.title = "Contact";
+    navigate('/contact')
+
+    setTimeout(() => {
+      setShowNavbar(true);
+    }, 500);
   }, []);
   return (
-    <div className='overflow-hidden max-h-screen'>
+    
+    <div className='wrapper overflow-hidden max-h-screen'>
+
       <div className='m-contact-page'>
+      {showNavbar && <Navbar />}
+
         <div className='text-white text-center font-varino text-[70px] lg:mt-10 m-contactus'>CONTACT US</div>
         <div className="flex flex-col justify-center items-center gap-3">
           <div className=''>

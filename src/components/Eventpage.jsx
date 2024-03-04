@@ -14,7 +14,7 @@ const Eventpage = () => {
   const [showSecondCard, setShowSecondCard] = useState(false);
   const [showThirdCard, setShowThirdCard] = useState(false);
   const [showFourthCard, setShowFourthCard] = useState(false);
-  // const mainRef = useRef(null);
+  const mainRef = useRef(null);
 
   const navigate = useNavigate();
 
@@ -137,12 +137,12 @@ const Eventpage = () => {
          
         </div>
       </div>
-      {/* 
+      
       <main
         ref={mainRef}
         className="scene main-container"
         style={{ position: "relative", zIndex: 0 }}
-      ></main> */}
+      ></main> 
 
       <Footer />
     </div>
