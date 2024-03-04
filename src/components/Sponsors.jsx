@@ -43,10 +43,11 @@ const SponsorsComponent = () => (
         </div> */}
         <div className="text-center mt-10">
         <p className="text-black ziegers font-semibold text-[50px] leading-[65px] font-varino max-w-[850px] text-center lg:mt-[10px] ziegers2024" style={{ marginLeft: 'auto', marginRight: 'auto' }}>
-  VEYG 2024 SPONSORS
+  VEYG 2024 
+  <br></br>PLATINUM SPONSORS
 </p> 
 </div>
-        <div className="flex justify-evenly flex-wrap gap-y-12 gap-x-14 font-semibold font-sans hover:font-serif" style={{ display: "flex", justifyContent: "space-evenly", alignContent: "space-around", }}>
+        <div className="flex justify-evenly flex-wrap gap-y-12 gap-x-14 font-semibold font-sans" style={{ display: "flex", justifyContent: "space-evenly", alignContent: "space-around", }}>
             {sponsors.map((object, index) => (
                 <div key={index} className="flex flex-col items-center rounded-lg">
                     <a href={object.link} target='_blank'>

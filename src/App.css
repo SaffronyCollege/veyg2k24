@@ -53,7 +53,7 @@
 }
 
 .ziegers2024 {
-    background: linear-gradient(98deg, #2476B6 0%, #62B0F2 52.4%, #42A754  100%);
+    background: linear-gradient(98deg, #bac7d1 0%, #E5E4E2 52.4%, #939393  100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -62,31 +62,31 @@
 
 @keyframes color-me-in {
     0% {
-        background: linear-gradient(98deg, #2476B6 0%, #62B0F2 52.4%, #42A754  80%);
+        background: linear-gradient(98deg, #E5E4E2 0%, #E5E4E2 52.4%, #939393  80%);
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
     25% {
-        background: linear-gradient(98deg, #42A754  0%, #2476B6 52.4%, #00c2ff 80%);
+        background: linear-gradient(98deg, #E5E4E2 0%, #bac7d1 52.4%, #E5E4E2 80%);
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
     50% {
-        background: linear-gradient(98deg, #62B0F2 0%, #42A754  52.4%, #2476B6 80%);
+        background: linear-gradient(98deg, #E5E4E2 0%, #E5E4E2  52.4%, #bac7d1 80%);
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
     75% {
-        background: linear-gradient(98deg, #2476B6 0%, #62B0F2 52.4%, #42A754  80%);
+        background: linear-gradient(98deg, #E5E4E2 0%, #E5E4E2 52.4%, #939393  80%);
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
     100% {
-        background: linear-gradient(98deg, #42A754  0%, #2476B6 52.4%, #62B0F2 80%);
+        background: linear-gradient(98deg, #E5E4E2  0%, #E5E4E2 52.4%, #E5E4E2 80%);
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;

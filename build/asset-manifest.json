@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/veyg2k24/static/css/main.9d67fa50.css",
-    "main.js": "/veyg2k24/static/js/main.adcc31d4.js",
+    "main.css": "/veyg2k24/static/css/main.2c4c5ba6.css",
+    "main.js": "/veyg2k24/static/js/main.9826f57b.js",
     "static/js/787.6cb3b903.chunk.js": "/veyg2k24/static/js/787.6cb3b903.chunk.js",
     "static/media/gt7.png": "/veyg2k24/static/media/gt7.e96daf6146f8a68871c0.png",
     "static/media/gullycricket.png": "/veyg2k24/static/media/gullycricket.7d209cefce64796545ea.png",
@@ -11,31 +11,32 @@
     "static/media/codbanner.jpeg": "/veyg2k24/static/media/codbanner.87221ce23bc41739909a.jpeg",
     "static/media/codm.jpeg": "/veyg2k24/static/media/codm.87221ce23bc41739909a.jpeg",
     "static/media/ReadexPro-VariableFont_HEXP,wght.ttf": "/veyg2k24/static/media/ReadexPro-VariableFont_HEXP,wght.c2bf707ae53c58d8e43d.ttf",
-    "static/media/dap1.png": "/veyg2k24/static/media/dap1.901107911f8afcbffb57.png",
     "static/media/bgmi.jpg": "/veyg2k24/static/media/bgmi.0847544cd028fb5d4bf0.jpg",
     "static/media/ZiegersLogo2.png": "/veyg2k24/static/media/ZiegersLogo2.01610a73e922962225f7.png",
     "static/media/planet.png": "/veyg2k24/static/media/planet.2e3ffc056623a089a026.png",
     "static/media/planet2.png": "/veyg2k24/static/media/planet2.ef18214ffd0bf52fdbff.png",
     "static/media/planet3.png": "/veyg2k24/static/media/planet3.ef18214ffd0bf52fdbff.png",
-    "static/media/ibg.jpg": "/veyg2k24/static/media/ibg.a360e2db460e78984cef.jpg",
     "static/media/fifa2k23.jpg": "/veyg2k24/static/media/fifa2k23.8249807c872b9f8813ce.jpg",
     "static/media/fifabanner.jpg": "/veyg2k24/static/media/fifabanner.8249807c872b9f8813ce.jpg",
     "static/media/VarinonormalRegular-nRYg4.otf": "/veyg2k24/static/media/VarinonormalRegular-nRYg4.73b4bdc9a68482b72da7.otf",
     "static/media/m-gt7banner.jpg": "/veyg2k24/static/media/m-gt7banner.85432738581ad0233112.jpg",
     "static/media/m-gamingbanner.webp": "/veyg2k24/static/media/m-gamingbanner.063fd22a73b9501dd302.webp",
     "static/media/ZiegersLogo.png": "/veyg2k24/static/media/ZiegersLogo.c6af520225be67c1377c.png",
+    "static/media/Integer.jpg": "/veyg2k24/static/media/Integer.9cd2159c0634cbfee956.jpg",
     "static/media/gamingPageBanner.webp": "/veyg2k24/static/media/gamingPageBanner.14cd1dc8604510c01ed0.webp",
-    "static/media/stars.webp": "/veyg2k24/static/media/stars.6d073c97f2d8073c4216.webp",
     "static/media/logo-saff.png": "/veyg2k24/static/media/logo-saff.41f2bbc4d217f8884fa1.png",
+    "static/media/ss1.png": "/veyg2k24/static/media/ss1.5e5731f04fa9e0707e91.png",
+    "static/media/Brainy.png": "/veyg2k24/static/media/Brainy.cf516a01078f72b411c3.png",
+    "static/media/Prime.jpeg": "/veyg2k24/static/media/Prime.1827c854bd1add923d08.jpeg",
     "index.html": "/veyg2k24/index.html",
     "static/media/contactbanner.svg": "/veyg2k24/static/media/contactbanner.d8c864c0edc1ebbf30aaa30bf62bde9b.svg",
     "static/media/menu.svg": "/veyg2k24/static/media/menu.f42aaa1b5e76b80ca12af6ae95ea29dc.svg",
-    "main.9d67fa50.css.map": "/veyg2k24/static/css/main.9d67fa50.css.map",
-    "main.adcc31d4.js.map": "/veyg2k24/static/js/main.adcc31d4.js.map",
+    "main.2c4c5ba6.css.map": "/veyg2k24/static/css/main.2c4c5ba6.css.map",
+    "main.9826f57b.js.map": "/veyg2k24/static/js/main.9826f57b.js.map",
     "787.6cb3b903.chunk.js.map": "/veyg2k24/static/js/787.6cb3b903.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d67fa50.css",
-    "static/js/main.adcc31d4.js"
+    "static/css/main.2c4c5ba6.css",
+    "static/js/main.9826f57b.js"
   ]
 }
