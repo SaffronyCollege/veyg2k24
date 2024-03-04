@@ -1,12 +1,27 @@
 import React from 'react'
+import Navbar from "./navbar.jsx";
+import { useEffect, useState } from "react";
 import banner from '../../src/assets/contactbanner.svg';
 import Team from './Team';
 import Footer from './Footer';
 import transition from '../transition';
 
 const About = () => {
+
+
+  const [showNavbar, setShowNavbar] = useState(false);
+
+  useEffect(() => {
+    document.title = "About";
+    setTimeout(() => {
+      setShowNavbar(true);
+    }, 500);
+
+  }, []);
+
   return (
     <div className='wrapper overflow-x-hidden max-w-screen'>
+        {showNavbar && <Navbar />}
       <div>
         <div className='text-white text-center font-varino text-[70px] mt-10 m-contactus m-aboutus'>ABOUT US</div>
         <img src={banner} alt='contactbanner' className='w-screen translate-y-4 m-contact-banner' />

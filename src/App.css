@@ -1324,6 +1324,7 @@ a:hover h1 {
     }
     /* About */
     .m-aboutus {
+        margin-top: 10rem;
         font-size: 40px;
     }
     .m-welcome-zieger {

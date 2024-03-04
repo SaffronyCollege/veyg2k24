@@ -1,15 +1,28 @@
-
-import React, { useEffect } from 'react'
+import Navbar from "./navbar.jsx";
+import { useEffect, useState } from "react";
 import banner from '../../src/assets/contactbanner.svg';
 import logo from '../../src/assets/ZiegersLogo2.png';
 import transition from '../transition';
+
 import Footer from './Footer';
 const Contact = () => {
+  const [showNavbar, setShowNavbar] = useState(false);
+
   useEffect(() => {
     document.title = "Contact";
+    setTimeout(() => {
+      setShowNavbar(true);
+    }, 500);
+
   }, []);
+
+
+ 
+
   return (
+    
     <div className='overflow-hidden max-h-screen'>
+       {showNavbar && <Navbar />}
       <div className='m-contact-page'>
         <div className='text-white text-center font-varino text-[70px] lg:mt-10 m-contactus'>CONTACT US</div>
         <div className="flex flex-col justify-center items-center gap-3">
