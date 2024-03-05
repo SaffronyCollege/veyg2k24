@@ -47,14 +47,14 @@ const SponsorsComponent = () => (
   <br></br>PLATINUM SPONSORS
 </p> 
 </div>
-        <div className="flex justify-evenly flex-wrap gap-y-12 gap-x-14 font-semibold font-sans" style={{ display: "flex", justifyContent: "space-evenly", alignContent: "space-around", }}>
+        <div className="flex justify-evenly flex-wrap gap-y-12 gap-x-14 chewed text-lg " style={{ display: "flex", justifyContent: "space-evenly", alignContent: "space-around",}}>
             {sponsors.map((object, index) => (
                 <div key={index} className="flex flex-col items-center rounded-lg">
                     <a href={object.link} target='_blank'>
                     <img src={object.logo} className="rounded-3xl object-cover " style={{ ...cardStyles(), borderTopLeftRadius: '15px', borderTopRightRadius: '15px' }} alt={`${object.name} logo`} /> {/* Increased margin-top and added curved upper corners to the image */}
                         </a>
                     <a href={object.link} target='_blank'>
-                        <p className="mt-2" style={{ fontSize: 32, color: '#00c2ff' }} >{object.name}</p>
+                        <p className="mt-2 text-lg" style={{ fontSize: 32, color: '#00c2ff' }} >{object.name}</p>
                     </a>
                 </div>
             ))}

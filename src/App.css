@@ -8,8 +8,17 @@
     src: url("../public/ReadexPro-VariableFont_HEXP\,wght.ttf");
 }
 
+@font-face {
+    font-family: chewed;
+    src: url("../public/ChewedPenBB_ital.otf");
+}
+
 .Varino {
     font-family: varino;
+}
+
+.chewed {
+    font-family: chewed;
 }
 
 .Readex {
@@ -53,45 +62,45 @@
 }
 
 .ziegers2024 {
-    background: linear-gradient(98deg, #bac7d1 0%, #E5E4E2 52.4%, #939393  100%);
+    background: linear-gradient(98deg, #68B9F3 0%, #42A754 52.4%, #68B9F3 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: color-me-in 10s linear infinite;
-}
-
-@keyframes color-me-in {
+    animation: color-me-in 5s linear infinite;
+  }
+  
+  @keyframes color-me-in {
     0% {
-        background: linear-gradient(98deg, #E5E4E2 0%, #E5E4E2 52.4%, #939393  80%);
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+      background: linear-gradient(98deg, #68B9F3 0%, #42A754 52.4%, #68B9F3 80%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
     25% {
-        background: linear-gradient(98deg, #E5E4E2 0%, #bac7d1 52.4%, #E5E4E2 80%);
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+      background: linear-gradient(98deg, #68B9F3 0%, #68B9F3 52.4%, #00c2ff 80%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
     50% {
-        background: linear-gradient(98deg, #E5E4E2 0%, #E5E4E2  52.4%, #bac7d1 80%);
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+      background: linear-gradient(98deg, #42A754 0%, #68B9F3 52.4%, #68B9F3 80%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
     75% {
-        background: linear-gradient(98deg, #E5E4E2 0%, #E5E4E2 52.4%, #939393  80%);
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+      background: linear-gradient(98deg, #68B9F3 0%, #42A754 52.4%, #68B9F3 80%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
     100% {
-        background: linear-gradient(98deg, #E5E4E2  0%, #E5E4E2 52.4%, #E5E4E2 80%);
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+      background: linear-gradient(98deg, #68B9F3 0%, #68B9F3 52.4%, #42A754 80%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
-}
+  }
 
 .bgstyle {
     /* background-color: black; */
