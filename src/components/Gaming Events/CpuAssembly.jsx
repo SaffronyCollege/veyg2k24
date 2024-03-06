@@ -1,6 +1,6 @@
 import React from "react";
 import banner from "../../assets/gt7.png";
-import mobilebanner from "../../assets/m-gt7banner.jpg";
+import mobilebanner from "../../assets/gt7.png";
 import transition from "../../transition";
 import OutsideClickHandler from "react-outside-click-handler";
 import menu from "../../assets/menu.svg";
