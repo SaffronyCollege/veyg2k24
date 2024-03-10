@@ -24,6 +24,9 @@ function Home() {
   const handleContactClick = () => {
     navigate("/contact");
   };
+  const handleDiplomaClick = () => {
+    navigate("/Diploma");
+  };
   const handleAboutClick = () => {
     navigate("/about");
   };
@@ -138,11 +141,39 @@ function Home() {
                     />
                   </g>
                 </svg>
+
+
+                <div
+                  onClick={handleDiplomaClick}
+                  className="flex justify-center items-center align-middle font-varino text-focus-in navbar-text cursor-pointer"
+                >
+                  Diploma
+                </div>
+                <svg
+                  width="34"
+                  height="34"
+                  className="text-focus-in m-hide"
+                  viewBox="0 0 34 34"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g id="Huge-icon/arrows/outline/arrow-down">
+                    <path
+                      id="Vector 190"
+                      d="M21.2722 18.4141V12.7573M21.2722 12.7573H15.6153M21.2722 12.7573L12.7869 21.2425"
+                      stroke="#F3F3F3"
+                      strokeWidth="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </g>
+                </svg>
+
               </div>
             </OutsideClickHandler>
             <a
               href="https://saffronycollege.github.io/veyg2k24/"
-              className="font-varino mx-auto text-xl translate-x-[-2.7rem] lg:mb-[1rem] text-focus-in logo-text "
+              className="md:hidden block font-varino mx-auto text-xl translate-x-[-2.7rem] lg:mb-[1rem] text-focus-in logo-text "
               style={{ 
                 color: "#61AFF1",
                 textShadow: "0 0 10px rgba(0, 0, 0, 0.9)" }}

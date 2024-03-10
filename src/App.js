@@ -16,6 +16,7 @@ import Pentathlon from './components/Gaming Events/Pentathlon';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import About from './components/About';
+import Diploma from './components/Diploma';
 import ScrollComponent from './components/ScrollComponent';
 // import LocomotiveScrollComponent from './components/LocomotiveScrollComponent';
 
@@ -35,6 +36,8 @@ function App() {
       <Route path="/*" element={<Home/>}/>
       <Route path="/contact*" element={<Contact/>}/>
       <Route path="/about*" element={<About/>}/>
+      <Route path="/Diploma*" element={<Diploma/>}/>
+
       <Route path="/events" element={<Eventpage/>} />
       <Route path="/events/technical" element={<Tech/>} />
       <Route path="/events/non-technical" element={<NonTech/>} />

@@ -19,6 +19,11 @@ function Navbar() {
     navigate("/about");
   };
 
+  const handleDiplomaclick = () => {
+    navigate("/Diploma");
+  };
+
+
   return (
     <nav
       className="flex text-[#fff] flex-row  items-center align-middle mx-auto pt-2 pl-10 justify-between "
@@ -78,6 +83,30 @@ function Navbar() {
                 />
               </g>
             </svg>
+
+            <div onClick={handleDiplomaclick} className="cursor-pointer font-varino lg:ml-3 text-focus-in navbar-text ">
+              Diploma
+            </div>
+            <svg
+              width="34"
+              height="34"
+              className="text-focus-in m-hide"
+              viewBox="0 0 34 34"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g id="Huge-icon/arrows/outline/arrow-down">
+                <path
+                  id="Vector 190"
+                  d="M21.2722 18.4141V12.7573M21.2722 12.7573H15.6153M21.2722 12.7573L12.7869 21.2425"
+                  stroke="#F3F3F3"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </g>
+            </svg>
+
           </div>
         </div>
       </OutsideClickHandler>
