@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/veyg2k24/static/css/main.156d0278.css",
-    "main.js": "/veyg2k24/static/js/main.378e8cd9.js",
+    "main.css": "/veyg2k24/static/css/main.aa21f239.css",
+    "main.js": "/veyg2k24/static/js/main.d7ad2240.js",
     "static/js/787.6cb3b903.chunk.js": "/veyg2k24/static/js/787.6cb3b903.chunk.js",
     "static/media/gt7.png": "/veyg2k24/static/media/gt7.e96daf6146f8a68871c0.png",
     "static/media/gullycricket.png": "/veyg2k24/static/media/gullycricket.7d209cefce64796545ea.png",
@@ -31,12 +31,12 @@
     "index.html": "/veyg2k24/index.html",
     "static/media/contactbanner.svg": "/veyg2k24/static/media/contactbanner.d8c864c0edc1ebbf30aaa30bf62bde9b.svg",
     "static/media/menu.svg": "/veyg2k24/static/media/menu.f42aaa1b5e76b80ca12af6ae95ea29dc.svg",
-    "main.156d0278.css.map": "/veyg2k24/static/css/main.156d0278.css.map",
-    "main.378e8cd9.js.map": "/veyg2k24/static/js/main.378e8cd9.js.map",
+    "main.aa21f239.css.map": "/veyg2k24/static/css/main.aa21f239.css.map",
+    "main.d7ad2240.js.map": "/veyg2k24/static/js/main.d7ad2240.js.map",
     "787.6cb3b903.chunk.js.map": "/veyg2k24/static/js/787.6cb3b903.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.156d0278.css",
-    "static/js/main.378e8cd9.js"
+    "static/css/main.aa21f239.css",
+    "static/js/main.d7ad2240.js"
   ]
 }
